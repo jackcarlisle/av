@@ -5,6 +5,10 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+.contactContainer {
+  margin-top: 1em;
+}
+
 .listingContainer {
   border: 1px dashed;
   border-radius: 30px;
@@ -16,6 +20,11 @@ body {
   width: 15em;
   padding: 0.5em;
   border-radius: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: #EF3C29;
 }
 
 .logo {

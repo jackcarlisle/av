@@ -1,12 +1,16 @@
 body {
   background-color: #000000;
+  background-image: url('assets/backdrop.jpg');
   text-align: center;
+  background-position: center;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
+  margin: 0;
 }
 
 .contactContainer {
   margin-top: 1em;
+  background-color: #000000;
 }
 
 .listingContainer {
@@ -28,8 +32,14 @@ body {
 }
 
 .logo {
-  width: 30em;
-  margin: -3em;
+  width: 6em;
+  float: left;
+}
+
+.nav-bar {
+  height: 6rem;
+  background-color: #000000;
+  width: 100%;
 }
 
 .slogan {
@@ -39,6 +49,11 @@ body {
   width: 32em;
   margin: 0 auto;
   margin-bottom: 1em;
+}
+
+.title {
+  font-size: 6rem;
+  padding: 3rem;
 }
 
 @media (max-width: 400px) {
